@@ -2,9 +2,9 @@
 
 namespace Livtoff\Laravel;
 
+use Livtoff\Laravel\Commands\LaravelCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Livtoff\Laravel\Commands\LaravelCommand;
 
 class LaravelServiceProvider extends PackageServiceProvider
 {
